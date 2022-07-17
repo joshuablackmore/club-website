@@ -1,0 +1,246 @@
+* {
+
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background-color: black;
+}
+
+/* Nav bar Stuff */
+
+.nav-bar {
+    display: block;
+    box-sizing: border-box;
+    background-color: #775f52;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    width: 100%;  
+    margin-bottom: 0px;
+}
+
+.nav-bar ul {
+    
+    box-sizing: border-box;
+    list-style: none;  
+    text-align: center;
+    
+}
+
+li {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+
+
+
+@media screen and (max-width:480px) {
+    li {
+        display: block;
+        text-align: center;
+        padding-bottom: 0.25em;
+    } 
+}
+
+a {
+    color: white;
+}
+
+/* Intro Stuff */
+
+.intro {
+    background-image: url("https://images.unsplash.com/photo-1585505771896-3ca607d71bf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 0px;
+    /*border: 1px solid white;*/
+    
+}
+
+.title {
+    font-size: 3em;
+}
+.title {
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 5em;
+    margin: auto;
+}
+
+.sub-title {
+    color: white;
+    text-align: center;
+    padding-top: 8em;
+}
+
+/* Biog stuff */
+
+#biog {
+    display: block;
+    background-color: #4f4037;
+    text-align: center;
+    margin-top: 3em;
+    /*margin-left: 6em;
+    margin-right: 6em;*/
+    margin-bottom: 3em;
+    color: white;
+    width: 100%;
+    padding-top: 1.5em;
+    /*border: 1px solid red;*/
+}
+
+#biog p {
+    display: block;
+    line-height: 1.5em;
+    max-width: 900px;
+    margin: auto;
+    /*margin-left: 6em;
+    margin-right: 6em;*/
+    color: white;
+    /*border: 1px solid blue;*/
+    margin-bottom: 2em;
+    
+}
+
+.liv-tyler {
+    display: block;
+    margin: auto;
+    max-height: 500px;
+    margin-bottom: 1em;
+    /*border: 1px solid red;*/
+
+}
+
+.arwen-arwen {
+    display: block;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width:480px) {
+    .arwen-arwen {
+        width: 100%;
+    }
+}
+
+span {
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+    padding-bottom: 1.5em;
+    font-size: 1.5em;
+}
+
+/* photo css */
+
+#pickup-day {
+    /*border: 1px solid blue;*/
+    display: block;
+    text-align: center;
+    background-color: #2a231f;
+
+}
+
+#pickup-day h2 {
+    color: white;
+    padding-top: 1.5em;
+}
+
+.pics {
+    
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Get a vizsla css */
+
+#get-a-vizsla {
+    display: block;
+    text-align: center;
+    background-color: #a2816e;
+    width: 100%;
+    margin-top: 3em;
+    /*margin-left: 6em;
+    margin-right: 6em;*/
+    margin-bottom: 3em;
+    color: white;
+    border: 1px solid green;
+}
+
+.first-walk-container {
+    display: flex;
+    justify-content: center;
+    background-color: #2a231f;
+    /*border: 1px solid white;*/
+    margin-bottom: 2em;
+}
+
+.me-and-arwen {
+    width: 400px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+} 
+
+.first-walk-container p {
+    /*border: 1px solid red;*/
+    color: white;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    width: 300px;
+    align-items: center;
+    margin-left: 2em ;    
+}
+
+@media screen and (max-width:480px) {
+    .first-walk-container {
+        display: block;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .me-and-arwen {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .first-walk-container p {
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+}
+
+
+/* footer css */
+
+.footer {
+    display: block;
+    box-sizing: border-box;
+    background-color: #775f52;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    width: 100%;  
+    margin-bottom: 0px;
+}
+
+
+ffc9aa d0a48b a2816e 775f52 4f4037 2a231f 000000
