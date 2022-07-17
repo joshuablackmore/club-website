@@ -127,7 +127,7 @@ a {
 .liv-tyler {
     display: block;
     margin: auto;
-    max-height: 500px;
+    max-width: 500px;
     margin-bottom: 1em;
     /*border: 1px solid red;*/
 
@@ -142,6 +142,12 @@ a {
 
 @media screen and (max-width:480px) {
     .arwen-arwen {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .liv-tyler {
         width: 100%;
     }
 }
